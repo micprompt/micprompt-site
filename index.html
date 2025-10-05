@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MicPrompt — Your Voice. On Cue.</title>
+  <meta name="description" content="MicPrompt turns rink announcements into revenue. Cue sponsor reads, calls, and timing with one tap."/>
+  <meta property="og:title" content="MicPrompt — Your Voice. On Cue.">
+  <meta property="og:description" content="The arena announcer’s control deck. Turn every announcement into revenue.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#111418" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="brand">
+        <!-- Simple inline icon + wordmark -->
+        <div class="logo">
+          <svg width="28" height="28" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <defs>
+              <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+                <stop offset="0%" stop-color="#2a8df5"/>
+                <stop offset="100%" stop-color="#1751f0"/>
+              </linearGradient>
+            </defs>
+            <circle cx="24" cy="24" r="22" fill="url(#g)"/>
+            <!-- Stylized M with cue dot + arcs -->
+            <circle cx="24" cy="13.5" r="2.1" fill="#fff" opacity="0.95"/>
+            <path d="M14 29.5c0-5.5 3.8-9 6.4-9 2.6 0 3.7 2.1 4.9 4.1 1.2-2 2.3-4.1 4.9-4.1 2.6 0 6.4 3.5 6.4 9v7.2h-5.2v-7.2c0-1.9-1.1-3.4-2.3-3.4-1.6 0-2.7 2.5-3.8 4.7-1.1-2.2-2.2-4.7-3.8-4.7-1.2 0-2.3 1.5-2.3 3.4v7.2H14v-7.2z" fill="#fff"/>
+            <path d="M18 12.2c2.3-1.6 9.7-1.6 12 0" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" opacity="0.9"/>
+          </svg>
+          <span class="wordmark">Mic<span>Prompt</span></span>
+        </div>
+      </div>
+      <nav class="links">
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Your Voice. <span class="accent">On Cue.</span></h1>
+          <p class="lead">MicPrompt is the arena announcer’s control deck. Cue sponsor reads, goals, and period breaks with one tap—sound professional and track every read.</p>
+          <div class="cta-row">
+            <a class="btn primary" href="#pricing">Try MicPrompt Free</a>
+            <a class="btn ghost" href="#demo">Hear a Demo</a>
+          </div>
+          <ul class="pill-list">
+            <li>Works on any device</li>
+            <li>Offline-ready</li>
+            <li>Sponsor playback & logs</li>
+          </ul>
+        </div>
+        <div class="hero-card" aria-hidden="true">
+          <div class="screen">
+            <div class="screen-header">MicPrompt — Announcer Mode</div>
+            <div class="grid">
+              <button>Goal Sponsor</button>
+              <button>Power Play</button>
+              <button>Last Minute</button>
+              <button>Period Break</button>
+              <button>Custom Read</button>
+              <button class="muted">Stop</button>
+            </div>
+            <div class="screen-log">
+              <div>12:41  | Goal Sponsor — Designated Drinks</div>
+              <div>11:59  | Last Minute — Home Period 1</div>
+              <div>11:30  | Power Play — Titans</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <div class="container">
+        <h2>Built for the Booth</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Pro Announcer Sound</h3>
+            <p>Choose from multiple voice styles or bring your own. Preload reads to eliminate delays.</p>
+          </article>
+          <article class="card">
+            <h3>Sponsor Playback & Tracking</h3>
+            <p>Rotate sponsors, log every read with timestamps, and export simple reports.</p>
+          </article>
+          <article class="card">
+            <h3>Game-Day Simple</h3>
+            <p>Big buttons, clear prompts, and reliable offline behavior. Hand it to any volunteer.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="demo" class="demo">
+      <div class="container demo-inner">
+        <div>
+          <h2>Hear MicPrompt in Action</h2>
+          <p>Click play to hear a sample sponsor read.</p>
+          <audio controls>
+            <source src="demo-voice.mp3" type="audio/mpeg"/>
+            Your browser does not support the audio element.
+          </audio>
+          <p class="small">Tip: replace <code>demo-voice.mp3</code> with your own clip later.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+      <div class="container">
+        <h2>Simple Pricing (CAD)</h2>
+        <div class="switch-row">
+          <span class="muted">Individuals</span>
+          <span class="divider"></span>
+          <span class="muted">Associations</span>
+        </div>
+        <div class="grid two">
+          <!-- Individual plans -->
+          <div class="col">
+            <h3>Individuals</h3>
+            <div class="tiers">
+              <div class="tier">
+                <div class="price"><strong>$0</strong><span>/mo</span></div>
+                <div class="name">Basic</div>
+                <ul>
+                  <li>Up to 25 announcements</li>
+                  <li>1 default voice</li>
+                  <li>Manual sponsor entry</li>
+                </ul>
+                <a class="btn small" href="#contact">Get Started</a>
+              </div>
+              <div class="tier featured">
+                <div class="price"><strong>$9.99</strong><span>/mo</span></div>
+                <div class="name">Studio</div>
+                <ul>
+                  <li>Unlimited announcements</li>
+                  <li>10+ voice styles</li>
+                  <li>Sponsor scheduling & logs</li>
+                </ul>
+                <a class="btn small primary" href="#contact">Start Free Trial</a>
+              </div>
+              <div class="tier">
+                <div class="price"><strong>$19.99</strong><span>/mo</span></div>
+                <div class="name">Voice+</div>
+                <ul>
+                  <li>Everything in Studio</li>
+                  <li>Clone your own voice</li>
+                  <li>Offline game cache</li>
+                </ul>
+                <a class="btn small" href="#contact">Upgrade</a>
+              </div>
+            </div>
+          </div>
+          <!-- Association plans -->
+          <div class="col">
+            <h3>Associations</h3>
+            <div class="tiers">
+              <div class="tier">
+                <div class="price"><strong>$29</strong><span>/mo</span></div>
+                <div class="name">Rink</div>
+                <ul>
+                  <li>1 rink • 3 seats</li>
+                  <li>Sponsor rotation</li>
+                  <li>Standard voice pack</li>
+                </ul>
+                <a class="btn small" href="#contact">Try It</a>
+              </div>
+              <div class="tier featured">
+                <div class="price"><strong>$99</strong><span>/mo</span></div>
+                <div class="name">Association</div>
+                <ul>
+                  <li>Up to 5 rinks • 10 seats</li>
+                  <li>Central dashboard & reports</li>
+                  <li>Custom voice import</li>
+                </ul>
+                <a class="btn small primary" href="#contact">Book a Demo</a>
+              </div>
+              <div class="tier">
+                <div class="price"><strong>Custom</strong></div>
+                <div class="name">League+</div>
+                <ul>
+                  <li>Unlimited rinks & users</li>
+                  <li>White-label branding</li>
+                  <li>API & priority support</li>
+                </ul>
+                <a class="btn small" href="#contact">Talk to Sales</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container contact-inner">
+        <h2>Get MicPrompt</h2>
+        <p>Interested in a pilot or pricing for your association? Send us a note.</p>
+        <form class="contact-form" name="contact" method="post" data-netlify="true">
+          <input type="hidden" name="form-name" value="contact" />
+          <div class="row">
+            <input name="name" type="text" placeholder="Your name" required>
+            <input name="email" type="email" placeholder="Email" required>
+          </div>
+          <textarea name="message" rows="4" placeholder="Tell us about your rink or association…"></textarea>
+          <button class="btn primary" type="submit">Request Access</button>
+          <p class="small muted">Or email: hello@micprompt.com</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>© <span id="y"></span> MicPrompt</div>
+      <div class="links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
